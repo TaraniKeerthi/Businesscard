@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+    background-color:rgb(39, 37, 37) ;
+}
+
+.bg-container{
+    background-color:rgb(34, 27, 27);
+    overflow: hidden;
+    border-radius: 10px;
+    width: 350px;
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    height:115vh;
+    margin-top:80px;
+    margin-bottom: 50px;
+}
+
+img{
+    height:250px;
+    width:350px;
+}
+
+.empname{
+text-align: center;
+font-weight:700;
+margin-top:10px;
+}
+
+h4{
+text-align: center;
+color:#F3BF99;
+font-size: 12px;
+font-weight: 400;
+
+
+}
+
+.mail{
+    text-align: center;
+    cursor:grab;
+}
+
+.button-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mail-btn{
+    height:40px;
+    width:100px;
+    background-color: rgb(227, 230, 235);
+    margin-right: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.linkedin{
+    height:40px;
+    width:100px;
+    background-color: rgb(150, 180, 238);
+    border-radius: 8px;
+    font-size: 16px;
+    color:white;
+}
+
+.about{
+    padding:20px;
+    margin-top:20px;
+}
+
+.about-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.interest{
+   padding:20px;
+   padding-top:0px;
+}
+
+.interest-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:0;
+    line-height: 20px;
+}
+
+.fa-facebook-f{
+    color: #3b5998;
+}
+
+.fa-twitter{
+color: #55acee;
+}
+
+.fa-instagram{
+   color: #ac2bac;
+}
+
+.fa-github{
+   color: #333333;
+}
